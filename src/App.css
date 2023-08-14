@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.rules-image {
+  height: 350px;
+  width: 450px;
+  padding: 30px;
+}
+.pop-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app-container {
+  background-color: #223a5f;
+  height: 100vh;
+}
+.pop-image-card {
+  background-color: #ffffff;
+  height: 350px;
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+.close-button {
+  height: 20px;
+}
